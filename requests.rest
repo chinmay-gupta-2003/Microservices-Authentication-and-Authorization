@@ -1,0 +1,21 @@
+POST http://localhost:8000/users/signup
+Content-Type: application/json
+
+{
+  "name":"User 3",
+  "email":"user3@gmail.com",
+  "password":"test1234",
+  "confirmPassword":"test1234"
+}
+
+#######################################
+
+POST http://localhost:8000/users/login
+Content-Type: application/json
+
+{
+  "email":"user3@gmail.com",
+  "password":"test1234"
+}
+
+
